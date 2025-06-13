@@ -22,7 +22,6 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.shmrfinanceapp.R
 import com.example.shmrfinanceapp.presentation.composables.ArticleItem
-import com.example.shmrfinanceapp.presentation.composables.ExpenseItem
 import com.example.shmrfinanceapp.presentation.models.ArticleModel
 import com.example.shmrfinanceapp.presentation.theme.ShmrFinanceAppTheme
 
@@ -79,7 +78,6 @@ fun ArticlesScreenContent(){
                 )
             }
         )
-        HorizontalDivider()
         LazyColumn {
             items(articleMockList){ article->
                 ArticleItem(article)

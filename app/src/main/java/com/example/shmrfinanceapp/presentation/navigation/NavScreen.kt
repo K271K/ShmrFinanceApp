@@ -1,25 +1,16 @@
 package com.example.shmrfinanceapp.presentation.navigation
 
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Add
-import androidx.compose.material3.FloatingActionButton
-import androidx.compose.material3.Icon
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.colorResource
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.example.shmrfinanceapp.R
 import com.example.shmrfinanceapp.presentation.composables.screens.AccountScreenContent
-import com.example.shmrfinanceapp.presentation.composables.screens.AnalyticsScreenContent
 import com.example.shmrfinanceapp.presentation.composables.screens.ArticlesScreenContent
-import com.example.shmrfinanceapp.presentation.composables.screens.ExpenseHistoryScreenContent
 import com.example.shmrfinanceapp.presentation.composables.screens.ExpensesScreenContent
 import com.example.shmrfinanceapp.presentation.composables.screens.IncomeScreenContent
 import com.example.shmrfinanceapp.presentation.composables.screens.SettingsScreenContent
